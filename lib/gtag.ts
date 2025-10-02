@@ -88,12 +88,13 @@ declare global {
     gtag: (
       command: 'config' | 'event' | 'js' | 'set',
       targetId: string,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       config?: Record<string, any>
     ) => void;
   }
 }
 
-export default {
+const gtagUtils = {
   GA_TRACKING_ID,
   pageview,
   event,
@@ -104,3 +105,5 @@ export default {
   trackSearch,
   trackShare,
 };
+
+export default gtagUtils;

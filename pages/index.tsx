@@ -59,6 +59,7 @@ export default function Home() {
                       ようこそ、{session.user?.name || session.user?.email}さん
                     </p>
                     {session.user?.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
                       <img
                         src={session.user.image}
                         alt="Profile"
