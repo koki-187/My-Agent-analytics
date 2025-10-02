@@ -1,0 +1,23 @@
+PWA Icons Placeholder
+=====================
+
+This directory should contain the following PWA icon files:
+- icon-180.png (180x180px) - Apple Touch Icon
+- icon-192.png (192x192px) - Android Chrome
+- icon-384.png (384x384px) - Android Chrome
+- icon-512.png (512x512px) - Android Chrome, Splash Screen
+
+To generate these icons, you can:
+1. Create a base icon (512x512px recommended)
+2. Use online tools like:
+   - https://www.pwabuilder.com/imageGenerator
+   - https://realfavicongenerator.net/
+   - https://favicon.io/
+3. Or use CLI tools like sharp-cli or imagemagick:
+   npm install -g sharp-cli
+   sharp -i base-icon.png -o icon-192.png resize 192 192
+   sharp -i base-icon.png -o icon-384.png resize 384 384
+   sharp -i base-icon.png -o icon-512.png resize 512 512
+   sharp -i base-icon.png -o icon-180.png resize 180 180
+
+For development, we'll create simple placeholder icons using ImageMagick or similar.
