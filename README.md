@@ -39,6 +39,21 @@ My Agent Analyticsは、エージェントの活動データを分析・可視�
 
 ### インストール手順
 
+#### 方法1: クイックスタート（推奨）
+
+```bash
+git clone https://github.com/koki-187/My-Agent-analytics.git
+cd My-Agent-analytics
+./scripts/quick-start.sh
+```
+
+クイックスタートスクリプトは以下を自動実行します：
+- 依存関係のインストール
+- .env.localの作成
+- ビルドテスト
+
+#### 方法2: 手動セットアップ
+
 1. **リポジトリのクローン**
 
 ```bash

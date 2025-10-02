@@ -35,12 +35,16 @@ next-env.d.ts
 # IDE/Editor
 .DS_Store
 .idea/
-.vscode/
 *.sublime-workspace
 *.sublime-project
 *.swp
 *.swo
 *~
+
+# VS Code - allow settings and extensions recommendations
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 
 # PWA
 public/sw.js
