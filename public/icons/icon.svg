@@ -1,0 +1,5 @@
+<!-- Simple SVG icon that can be manually converted to PNG -->
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#3b82f6"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="200" fill="white" font-family="Arial, sans-serif" font-weight="bold">MA</text>
+</svg>
