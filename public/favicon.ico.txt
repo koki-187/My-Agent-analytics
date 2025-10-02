@@ -1,0 +1,10 @@
+# Favicon Placeholder
+
+This project needs a favicon.ico file in the public/ directory.
+
+You can generate one from your icon files using:
+- https://favicon.io/
+- https://realfavicongenerator.net/
+- Or use ImageMagick/sharp-cli to convert icon-192.png to .ico format
+
+For now, browsers will use the icons specified in the manifest.json and meta tags.

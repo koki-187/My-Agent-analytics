@@ -1,0 +1,12 @@
+フォントファイルの配置について
+=============================
+
+NotoSansJP-Regular.ttf ファイルをこのディレクトリに配置してください。
+
+ダウンロード先:
+https://fonts.google.com/noto/specimen/Noto+Sans+JP
+
+または、開発環境では以下のコマンドでダウンロードできます:
+curl -L "https://github.com/google/fonts/raw/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf" -o NotoSansJP-Regular.ttf
+
+フォントがない場合、PDFは生成されますがデフォルトフォントが使用されます。
