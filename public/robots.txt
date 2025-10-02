@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow authentication pages
+Disallow: /api/auth/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
