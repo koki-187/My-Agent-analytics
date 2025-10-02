@@ -1,0 +1,40 @@
+# Node/Next.js向け標準
+node_modules/
+.next/
+.env
+.env.local
+.env.production
+.env.development
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.log
+coverage/
+out/
+dist/
+build/
+*.tsbuildinfo
+*.swp
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.pid
+*.seed
+*.tgz
+
+# PWA関連
+public/sw.js
+public/workbox-*.js
+public/sw.js.map
+public/workbox-*.js.map
+
+# Playwright関連
+playwright-report/
+test-results/
+playwright/.cache/
+
+# その他
+.DS_Store
+Thumbs.db
